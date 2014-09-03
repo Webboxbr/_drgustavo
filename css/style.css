@@ -1,0 +1,672 @@
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/*textuais*/
+.negrito {font-weight: bold;}
+.italico {font-style:italic;}
+.azul {color:#0085B2;}
+.cinza {color:#595959}
+.cinza-claro {color:#868686;}
+.verde {color:#9FC500;}
+.laranja {color:#FF4000;}
+
+.t15 {font-size: 15px!important;}
+.t18 {font-size: 18px!important;}
+.t25 {font-size: 25px;}
+.t30 {font-size: 30px;}
+.t40 {font-size: 40px;padding-top: 10px;}
+/* ^ */
+
+
+/*Links*/
+.link-veja-mais-home {
+	font-size: 12px;
+	text-decoration: none;
+	color:#333;
+	display: block;
+	margin-right: 10px;
+}
+/* ^ */
+
+
+/*Alinhamento*/
+.aling-center {text-align: center;}
+.aling-esq {text-align: left;}
+.aling-dir {text-align: right;}
+/* ^ */
+
+.desloca-esq {
+	float:left;
+}
+.desloca-dir {
+	float:right;
+}
+.clearfix {
+	clear: both;
+}
+.margens {
+	margin-top: 54px;
+	margin-bottom: 70px;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+.semEsp {
+	margin: 0;
+	padding: 0;
+}
+.botao {
+	cursor: pointer;
+}
+
+
+
+
+
+#geral {
+	width: 1200px;
+	/*height: 100%;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+#geral {
+	-webkit-box-shadow: 0px 0px 19px 6px rgba(50, 50, 50, 0.42);
+		-moz-box-shadow: 0px 0px 19px 6px rgba(50, 50, 50, 0.42);
+			box-shadow: 0px 0px 19px 6px rgba(50, 50, 50, 0.42);
+}
+header #topo h1 {
+	margin:0;
+	padding:0;
+}
+header #topo h1 {
+	margin-left:47px;
+	margin-top:49px;
+	width:346px;
+	height:77px;
+	float:left;
+}
+header #topo .txt-telefone {
+	margin-top:49px;
+	margin-left:49px;
+	float: left;
+	width: 280px;
+	border-right: solid 1px #a2a2a2;
+}
+header #topo .txt-telefone p {
+	font-size: 20px;
+	color: #97B700;
+	margin-left:10px;
+	margin-right:10px;
+	display: inline-block;
+	padding:0;
+	margin-top:8px;
+	margin-bottom:0;
+}
+header #topo p.txt-endereco {
+	font-size: 20px;
+	color: #595959;
+	display: inline-block;
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	padding:0;
+	margin-top:55px;
+	margin-bottom:0;
+}
+header #topo img {
+	float:right;
+	margin-top:20px;
+	margin-right:25px;
+}
+header ul {
+	margin-top:17px;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	padding:0;
+	height:63px;
+	background-color:#0085B2;
+	-webkit-box-shadow: 0px 6px 26px -2px rgba(50, 50, 50, 0.63);
+		-moz-box-shadow:    0px 6px 26px -2px rgba(50, 50, 50, 0.63);
+			box-shadow:         0px 6px 26px -2px rgba(50, 50, 50, 0.63);
+}
+header ul li {
+	list-style: none;
+	display: inline-block;
+	height:63px;
+	padding-left:35px;
+	padding-right:35px;
+}
+header ul li:first-child {
+	margin-left: 35px;
+}
+header ul li:not(:last-child) {
+	border-right: solid 1px #339DC1;
+}
+header ul li a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 20px;
+	padding-top: 15px;
+	display: inline-block;
+}
+
+
+footer {}
+footer div.div-1 {
+	height: 0; 
+   	width: 637px;
+   	border-bottom: 64px solid #97C516;
+   	border-left: 40px solid transparent;
+   	border-right: 40px solid transparent;
+   	margin-left:auto;
+   	margin-right:auto;
+   	margin-top:20px;
+}
+footer div.div-2 {
+	width: 100%;
+	height: 35px;
+	background-color: #97C516;
+	margin-top: -35px;
+}
+footer div.div-3 {
+	width: 380px;
+	margin-left:auto;
+   	margin-right:auto;
+   	margin-top: -70px;
+   	text-align: center;
+}
+footer div.div-3 img {
+	float: left;
+}
+footer div.div-3 p {
+	color: #fff;
+	font-size: 20px;
+}
+footer div.div-4 {
+	height:150px;
+	width: 100%;
+	background-color:#5A5A5A;
+	margin-top:23px!important;
+}
+footer div.div-4 p {
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+footer div.div-4 p.rod-1 {
+	font-size: 15px;
+	color: #97B700;
+	padding-top:30px;
+	margin:0;
+}
+footer div.div-4 p.rod-2 {
+	font-size: 12px;
+	color: #fff;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin:0;
+}
+
+
+
+
+/*
+	Classes na Home
+*/
+#corpo ul.corpo-home {
+	margin-top:90px;
+	margin-bottom:0;
+	margin-left:32px;
+	margin-right:0;
+	padding:0;
+}
+#corpo ul.corpo-home li {
+	list-style: none;
+	display: inline-block;
+	width:360px;
+	vertical-align: top;
+}
+#corpo ul.corpo-home li:not(:last-child) {
+	border-right: solid 1px #ededed;	
+}
+li.altura {height:480px;}
+
+li.altura img.drGustavo {
+	width:179px!important;
+	height:184px;
+}
+
+#corpo ul.corpo-home li h2, #corpo ul.corpo-home li p {
+	margin:0;
+	padding-left:10px;
+	padding-top:0;
+	padding-bottom:0;
+	padding-right:0;
+	display: block;
+	float: left;
+	width:260px;
+}
+
+
+#corpo ul.corpo-home li:not(:first-child) {
+	padding-left:20px;
+}
+	/*trata a última coluna*/
+	#corpo ul.corpo-home li:last-child {
+		width:350px;
+	}
+	#corpo ul.corpo-home li:last-child h2, #corpo ul.corpo-home li:last-child p {
+		width:230px;
+	}
+	/* ^ */
+#corpo ul.corpo-home li h2 {
+	font-size:30px;
+	color:#0085B2;
+	text-transform: capitalize;
+}
+#corpo ul.corpo-home li:last-child h2 {
+	color:#9FC500;
+}
+#corpo ul.corpo-home li p {
+	font-size:20px;
+	color:#858585;
+}
+#corpo ul.corpo-home li p ~ p {
+	color:#595959;
+	width: 90%;
+	text-align: left;
+}
+#corpo ul.corpo-home li div.clearfix {
+	margin-bottom:20px;
+}
+#corpo ul.corpo-home li img {
+	float: left;
+	width: 91px;
+}
+#corpo ul.corpo-home li img + p {
+	float: left;
+	width: 250px;
+	margin-top:10px;
+}
+#corpo ul.corpo-home li img + p a {
+	clear: left;
+	float: right;
+	color:#595959;
+	font-size:15px;
+	text-decoration:underline;
+	margin-top: 15px;
+}
+div.quadro-da-agenda {
+	background-color:#EDEDED;
+	-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+			border-radius: 15px;
+	padding: 10px 5px 20px 10px; /*sup, dir, bot, esq*/
+}
+div.quadro-da-agenda ol.dia-semana {
+	margin:0!important;
+	padding:0!important;	
+}
+div.quadro-da-agenda ol.dia-semana li {
+	list-style: none;
+	display: inline-block;
+	width:155px!important;
+	margin:0!important;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 5px!important;
+}
+div.quadro-da-agenda ol.dia-semana li.com-borda {
+	border-right: solid 1px #a4a4a4!important;
+	padding-right: 5px!important;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin:0;	
+}
+
+div.quadro-da-agenda ol.dia-semana li ol.horarios {
+	margin:0!important;
+	padding:0!important;
+}
+div.quadro-da-agenda ol.dia-semana li ol.horarios li {
+	padding-right:0!important;
+	padding-top:7px!important;
+	padding-bottom:7px!important;
+	padding-left:0!important;
+	margin-right:0!important;
+	margin-top:0!important;
+	margin-bottom:1px!important;
+	margin-left:0!important;
+	float:left;
+	width:75px!important;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+div.quadro-da-agenda ol.dia-semana li ol.horarios li.reservado {
+	background-color:#D93600;
+}
+div.quadro-da-agenda ol.dia-semana li ol.horarios li.disponivel {
+	background-color:#97C516;
+}
+div.quadro-da-agenda ol.dia-semana li ol.horarios li:hover {
+	background-color:#D93600;
+}
+div.quadro-da-agenda ol.dia-semana p {
+	color:##595959;
+	font-size: 20px;
+	font-weight:bold;
+	text-align: center;
+	width:130px!important;
+}
+/* ^ */
+
+
+
+/*contato*/
+.corpo-contato h2.contato-dir,.corpo-contato p.contato-dir {
+	margin:0;
+	padding-left:10px;
+	padding-top:0;
+	padding-bottom:0;
+	padding-right:0;
+	display: block;
+	float: left;
+	width:260px;
+}
+/**/
+
+
+
+.margens ul {
+	margin: 0;
+	width: 
+} 
+.margens ul li {
+	color:#595959;
+	font-size:20px;
+}
+.margens ul li span {display: block; font-size: 15px; font-style: italic;}
+
+
+
+
+
+.box-label-azul {
+	padding-right:29px;
+	padding-top:13px;
+	padding-left:29px;
+	padding-bottom:13px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;	
+	background-color:#0085B2;
+	display: inline;
+}
+.box-label-verde {
+	padding-right:29px;
+	padding-top:13px;
+	padding-left:29px;
+	padding-bottom:13px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;	
+	background-color:#96C700;
+	display: inline;
+}
+
+.corpo-livros img.lv {float: left;}
+.corpo-livros img.cert {margin-top: 20px;}
+.corpo-livros p.lv {float: right;width: 260px;}
+.corpo-livros p.cert {margin-bottom: 10px;}
+.corpo-livros hr {
+	padding-top:20px;
+	margin-bottom:20px;
+	padding:none; 
+	clear:both; 
+	height: 1px; 
+	border-bottom:solid 1px #ede;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+}
+
+
+
+
+
+
+
+
+/*base icones*/
+.icone-verde {
+	background-color:#97C516;	
+}
+.icone-azul {
+	background-color:#0085B2;
+}
+.icone-verde, .icone-azul {
+	width:79px;
+	height:79px;
+	display: inline-block;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+	float:left;
+}
+
+
+/* ^ */
+
+
+
+/*icones*/
+.telefone {
+	background-image: url(../images/icones/telefone.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.calendario {
+	background-image: url(../images/icones/calendario.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.livro {
+	background-image: url(../images/icones/livro.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.visao {
+	background-image: url(../images/icones/visao.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.estrela {
+	background-image: url(../images/icones/estrela.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.contato {
+	background-image: url(../images/icones/contato.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.localizacao {
+	background-image: url(../images/icones/localizacao.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+#frmContato {}
+
+#frmContato label {
+	display: none;
+}
+
+#frmContato textarea, #frmContato input[type="text"], input[type="tel"], input[type="email"] {
+	border: solid 1px #3F83B5;
+	padding: 5px;
+	display: block;
+	margin-bottom: 10px;
+	width: 508px;
+}
+#frmContato textarea {
+	height: 80px;
+	resize:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dia-semana {
+	padding: 0!important;
+	margin: 0!important;
+}
+.dia-semana li {
+	padding: 0!important;
+	margin: 0!important;
+}
+
+.dia-semana #itemContainer {
+	overflow: hidden;
+	/*background-color:red;*/
+	padding-top:0px;
+	padding-bottom:20px;
+	padding-left:0;
+	padding-right:0;
+	position: relative;
+	margin: 0;
+	width:161px;
+}
+
+.dia-semana #itemContainer li {
+	float:left;
+	width:70px!important;
+	padding-left:0px;
+	padding-right:0px;
+	list-style:none;
+	margin:0px;
+	display: block;
+	text-align: center;
+	/*background-color:blue;*/
+}
+.dia-semana #itemContainer li.sem-borda {
+	float:left;
+	width:70px;
+	margin-left:0px;
+	margin-right:0px;
+	border-right:none;
+	list-style:none;
+	padding: 0;
+}
+.dia-semana #itemContainer li a {
+	display: block;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align: center;
+	background-color:#A2A2A2;
+	margin-bottom:1px;
+	width:70px;
+	color:#fff;
+	text-decoration: none;
+}
+.dia-semana #itemContainer li a:hover {
+	background-color:#FF4000!important;
+}
+.dia-semana #itemContainer li p {
+	padding:0;
+	margin:0;
+	text-align:center;
+	margin:0;
+	padding:0;
+	font-size:16px!important;
+	font-weight:normal;
+}
+.dia-semana #itemContainer li p.inativo {
+	display: block;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align: center;
+	background-color:#A2A2A2;
+	margin-bottom:1px;
+	margin-top:0;
+	width:70px!important;
+	color:#fff;
+	text-decoration: none;
+}
+.dia-semana #itemContainer li p.n {
+	display: block;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:0!important;
+	padding-right:0!important;
+	text-align: center;
+	background-color:#FF4000;
+	margin-bottom:1px;
+	margin-top:0;
+	width:70px!important;
+	color:#fff;
+	text-decoration: none;
+}
+.dia-semana #itemContainer li p.i {
+	display: block;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:0!important;
+	padding-right:0!important;
+	text-align: center;
+	background-color:#A2A2A2;
+	margin-bottom:1px;
+	margin-top:0;
+	width:70px!important;
+	color:#fff;
+	text-decoration: none;
+}
+.dia-semana #itemContainer li a.s {
+	background-color:#97C516;
+}
+.dia-semana #itemContainer li a.i {
+	background-color:#A2A2A2;
+}
+.dia-semana #itemContainer li a.n {
+	background-color:#FF4000;
+}
+.dia-semana #itemContainer li a.i:hover {
+	background-color:#A2A2A2!important;
+}
+
+
+
+
+
+
+
+
+/* ^ */

@@ -1,0 +1,39 @@
+Configurações para upload de imagens no CKEditor:
+
+No form da página onde o editor vai aparecer:
+
+CKEDITOR.replace( 'name_do_textarea',
+{
+	filebrowserBrowseUrl : '/clientes/drgustavo/admin/ckeditor/ckfinder/ckfinder.html',
+	filebrowserImageBrowseUrl : '/clientes/drgustavo/admin/ckeditor/ckfinder/ckfinder.html?type=Images',
+	filebrowserFlashBrowseUrl : '/clientes/drgustavo/admin/ckeditor/ckfinder/ckfinder.html?type=Flash',
+	filebrowserUploadUrl : '/clientes/drgustavo/admin/ckeditor/ckfinder/core/connector/asp/connector.asp?command=QuickUpload&type=Files',
+	filebrowserImageUploadUrl : '/clientes/drgustavo/admin/ckeditor/ckfinder/core/connector/asp/connector.asp?command=QuickUpload&type=Images',
+	filebrowserFlashUploadUrl : '/clientes/drgustavo/admin/ckeditor/ckfinder/core/connector/asp/connector.asp?command=QuickUpload&type=Flash',
+	//filebrowserWindowWidth : '1000',
+ 	//filebrowserWindowHeight : '700'
+});
+
+
+Obs.: substituir o caminho "/clientes/drgustavo/admin/"
+
+
+
+Em "\admin\ckeditor\ckfinder" arquivo config.asp
+
+linha 37:
+CheckAuthentication = false
+mudar para 
+CheckAuthentication = true
+
+linha 67:
+baseUrl = "http://www.webox.com.br/clientes/drgustavo/admin/ckeditor/ckfinder/userfiles/"
+Incluir a url até a pasta userfiles,  substituir o trecho "http://www.webox.com.br/clientes/drgustavo/"
+
+Linha 82:
+baseDir = "I:\inetpub\wwwroot\weboxcbr\clientes\drgustavo\admin\ckeditor\ckfinder\userfiles\"
+Incluir o caminho até a pasta userfiles, substituir o trecho "I:\inetpub\wwwroot\weboxcbr\clientes\drgustavo\"
+
+Em "/admin/ckeditor/ckfinder/core/connector/asp/connector.asp"
+Linha 58:
+Mudar o caminho virtual

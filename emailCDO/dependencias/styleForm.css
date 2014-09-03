@@ -1,0 +1,19 @@
+
+
+#frmContato {}
+
+label {
+	display: none;
+}
+
+textarea, input[type="text"], input[type="tel"], input[type="email"] {
+	border: solid 1px #3F83B5;
+	padding: 5px;
+	display: block;
+	margin-bottom: 10px;
+	width: 508px;
+}
+textarea {
+	height: 80px;
+	resize:none;
+}

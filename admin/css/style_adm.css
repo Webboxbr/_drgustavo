@@ -1,0 +1,532 @@
+
+
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFF;
+}
+html {background-color:#EDEDED;}
+.bgHome {background-color:#ffffff;}
+
+.pontoZero { position: relative;z-index: 10!important; }
+
+/* ************************************************* */
+.desloca-esq { float:left;}
+.desloca-dir { float:right;}
+.clear { clear: both; }
+.aling-dir {text-align: right;}
+.aling-left {text-align:left;}
+.aling-centro {text-align:center;}
+.negrito {font-weight:bold;}
+
+.link-normal-branco {color:#fff;text-decoration:none;}
+
+
+
+a.imgDel { position: absolute; left: 0px; top: 0px; z-index: 10; display: block; height: 100px; width: 100px; }
+a.imgDel:hover { background-image: url(../images/del.png); background-repeat: no-repeat;}
+
+
+p {font-family: 'Open Sans', sans-serif;}
+.semEsp {margin:0;padding:0;}
+
+
+
+.branco {color:#ffffff;}
+.azul-2 {color:#199AAC;}
+
+
+.t12 {font-size: 12px;}
+.t30 {font-size:30px;}
+.t50 {font-size:50px;}
+
+.header {
+	width:100%;
+	height:86px;
+	background-color:#1A9CAC;
+}
+.menu {
+	background-color:#333;
+}
+.footer {
+	height:165px;
+	border-top:solid 4px #85235E;
+	background-color:#EDEDED;
+	margin-top: 100px;
+}
+.footer div {
+	text-align:center;
+	margin-top:46px;
+	margin-bottom:16px;
+}
+.footer div+div {
+	text-align:center;
+	margin:0px;
+}
+
+
+.margens {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+h1.logo {
+	background-image: url(../images/logoWebbox.png);
+	width:140px;
+	height:38px;
+	margin-top:20px;
+	margin-left:27px;
+	float:left;
+}
+
+#geral {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+#geral .logo {
+	background-image: url(../images/logo.png);
+	height: 77px; 
+	width: 346px; 
+	margin-right: auto; 
+	margin-left: auto; 
+	margin-bottom: 80px; 
+	margin-top: 80px; 
+}
+
+#logoutSistema { 
+	text-align: left; 
+	display: block; 
+	width: 820px;
+	color:#fff;
+	font-size:14px;
+	margin-top:25px;
+	margin-left:23px;
+	float:left;
+}
+#contadorSessao { color: #fff; text-align: right; width: 350px; }
+
+
+
+
+
+.box-cinza {
+	background-color:#ededed;
+	padding-top:40px;
+	padding-bottom:20px;
+	padding-left:40px;
+	padding-right:40px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	position: relative;
+}
+
+
+#frmCad {}
+
+#frmCad label {
+	display:block;
+	margin-bottom: 10px;
+}
+#frmCad .form1 {
+	width:1157px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************************************************* */
+.titulos{
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+.respostas{
+	font-size: 12px;
+	color: #333;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #E4E4E4;
+}
+.nomeDosCampos{
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+/* ************************************************* */
+
+
+.exMasters {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	margin-top: 20px;
+}
+
+
+
+#geral_pop {
+	/*width: 990px;
+	margin-right: auto;
+	margin-left: auto;*/
+}
+#geral_pop label  {font-family: Verdana, Geneva, sans-serif; font-size: 12px; display: block; margin-bottom: 5px; }
+#geral_pop h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	color: #666;
+}
+
+
+
+
+
+
+
+
+
+#FormLogin fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#FormLogin fieldset label {
+	display: inline;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #fff;
+	margin-right:20px;
+}
+
+#FormLogin fieldset .cx-form {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #666;
+	height: 25px;
+	width: 200px;
+	margin-bottom: 10px;
+	border: 1px solid #666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-color:#ccc;
+}
+
+
+
+
+
+#geral .cabecalho {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	margin-bottom: 20px;
+}
+
+#geral .cabecalho .logoMenor { background-image: url(../images/logo.png); height: 167px; width: 274px; margin-right: 20px; margin-bottom: 20px; float: left; margin-top: 30px; cursor: pointer; 
+}
+#geral .menu {
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#geral .menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#geral .menu ul li a{
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	margin-bottom: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #818181;
+	text-decoration: none;
+}
+#geral .menu ul li a:hover {
+	background-color: #DCBF47;
+}
+
+
+.listaProdutos {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCC;
+}
+#geral .corpo {
+	float: left;
+	width: 750px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.fotoProduto { margin: 3px; padding: 2px; border: 2px solid #CCC; display: block; }
+
+
+
+#geral .corpo .botoes {
+}
+#geral .corpo .botoes .botaoVoltar {
+	float: left;
+}
+#geral .corpo .botoes .botaoAprovarReprovar {
+	float: right;
+}
+#geral .corpo .notas {
+	background-color: #E5E5E5;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	padding-right: 60px;
+	padding-bottom: 30px;
+	padding-left: 60px;
+}
+#geral .corpo .notas .esqueerda {
+	float: left;
+}
+#geral .corpo .notas .esqueerda .formNota {
+	height: 20px;
+	width: 150px;
+}
+#geral .corpo .notas .direita {
+	float: right;
+}
+
+
+.listaProdutos .latEsq { float: left; width: 225px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: #999; border-right-color: #999; border-bottom-color: #999; border-left-color: #999; height: 120px; overflow: hidden; }
+.listaProdutos .latEsq img {
+	/*width: 200px;*/
+}
+.listaProdutos .meio {
+	float: left;
+	width: 360px;
+}
+.listaProdutos .latDir {
+	float: left;
+	width: 151px;
+}
+.listaProdutos .latDir a {
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+}
+#geral .corpo h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	color: #666;
+}
+#geral .corpo h2 { font-family: Verdana, Geneva, sans-serif; font-size: 14px; color: #666; }
+
+#geral .corpo #formCadastro fieldset {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#geral .corpo #formCadastro label  { font-size: 12px; display: block; margin-bottom: 5px; }
+#geral .corpo #formtratamentos label { font-size: 12px; display: block; margin-bottom: 5px; }
+
+#geral #formCadastro .cx-form1  {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #666;
+	height: 25px;
+	width: 313px;
+	margin-bottom: 10px;
+	border: 1px solid #666;
+}
+#geral #formCadastro .cx-form2  {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #666;
+	height: 25px;
+	width: 265px;
+	margin-bottom: 10px;
+	border: 1px solid #666;
+}
+#geral #formCadastro .cx-form3  {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #666;
+	height: 25px;
+	width: 100px;
+	margin-bottom: 10px;
+	border: 1px solid #666;
+}
+#geral #formCadastro .cx-form4  {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #666;
+	height: 70px;
+	width: 313px;
+	margin-bottom: 10px;
+	border: 1px solid #666;
+}
+#geral #formCadastro .cx-form5 { font-family: Verdana, Geneva, sans-serif; font-size: 14px; color: #666; height: 160px; width: 740px; margin-bottom: 10px; border: 1px solid #666; resize:vertical; }
+
+#geral .cabecalho .logoff {
+	float: right;
+	margin-top: 40px;
+	margin-right: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+#geral .cabecalho .logoff a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #333;
+	text-decoration: none;
+}
+#geral .cabecalho .logoff a:hover {
+	text-decoration: underline;
+}
+.vermelho, .vermelho a {
+	color: #F00;
+}#geral .rodape {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+}
+#geral .rodape p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #CCC;
+}
+#geral .rodape p a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999;
+	text-decoration: none;
+}
+.titTabela {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 20px;
+}
+.tabelaEstatisticas {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #006;
+	margin-bottom: 20px;
+}
+.destacaGrupos {
+	color: #006;
+}
+td.bordaBotton { border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #CCC; padding-top: 3px; padding-bottom: 3px; }
+td.fontMenor {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333;
+	text-decoration: none;
+}
+td.fontMenor a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333;
+	text-decoration: underline;
+}
+.verde {
+	color: #090;
+}
+.vermelho {
+	color: #C00;
+}
+.retiraBordas td{
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+}
+.incluiBordas td{
+	border: 1px solid #999;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+/* ************************************************* */
+/*         paginação                                 */
+/* ************************************************* */
+.paginaBloco #paginacao{font-family:Arial;color:#006EB3;font-size:12px;}
+.paginaBloco a{background-color:#FFFFFB;border:1px solid #DFDFDF;margin:1px;padding-top:2px;padding-right:5px;padding-bottom:2px;padding-left:5px;font-family:Arial;font-size:13px;color:#006FB5;display:inline;text-decoration:none;}
+.paginaBloco h3{font-family:Arial;color:#036;font-size:14px;font-weight:normal;font-style:none;}
+.cinza-claro td{ background-color: #F2F2F2; border-bottom-width: 1px; border-bottom-style: dashed; border-bottom-color: #DDD; padding-bottom: 8px; padding-top: 8px; }
+.branco td { background-color: #FFF; padding-bottom: 8px; border-bottom-width: 1px; border-bottom-style: dashed; border-bottom-color: #ddd; padding-top: 8px; }
+.fontpacotes td, .fontmenor{ font-size: 10px; }
+.azul { color: #069!important; }
