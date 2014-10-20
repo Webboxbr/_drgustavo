@@ -64,13 +64,21 @@ Conexao.Close()
 					<p class="lv">Autor: Dr. Gustavo Abreu Ultra-Sonografia Ocular 4ª edição.</p>
 					<hr>
 
-					<img src="images/livros/2.jpg" alt="" class="lv">
-					<p class="lv">Co-autor: Dr. Gustavo Abreu Ultra-Sonografia Ocular: atlas & texto. 3ª edição.</p>
-					<hr>
-
 					<img src="images/livros/3.jpg" alt="" class="lv">
 					<p class="lv">Co-autor: Dr. Gustavo Abreu Master Thechniques in Cataract and Refractive Surgery</p>
 					<hr>
+
+					<img src="images/livros/5.jpg" alt="" class="lv">
+					<p class="lv">Co-autor: Dr. Gustavo Abreu <b>Fotocoagulação Ocular.</b> 1ª edição.</p>
+					<hr>
+
+					<!--
+					<img src="images/livros/2.jpg" alt="" class="lv">
+					<p class="lv">Co-autor: Dr. Gustavo Abreu Ultra-Sonografia Ocular: atlas & texto. 3ª edição.</p>
+					<hr>
+					-->
+
+					
 
 					<img src="images/livros/4.jpg" alt="" class="lv">
 					<p class="lv">Co-autor: Dr. Gustavo Abreu Ecografia Ocular e Orbitária. Volume VI.</p>
@@ -89,6 +97,16 @@ Conexao.Close()
 
 					<img src="images/certificados/2.jpg" alt="" class="cert">
 					<p class="cert"><span class="negrito">Diploma de Mérito Médico</span> pelos serviços prestados a Campinas no campo da medicina</p>
+
+					<img src="images/certificados/3.jpg" alt="" class="cert">
+					<p class="cert"><span class="negrito">Diploma de Membro Titular</span> - Sociedade Brasileira de Retina e Vítreo</p>
+
+					<img src="images/certificados/4.jpg" alt="" class="cert">
+					<p class="cert">Curso Panamericano de Oftalmologia del Cono Sur</p>
+
+					<img src="images/certificados/5.jpg" alt="" class="cert">
+					<p class="cert"><span class="negrito">Miembro Asociado</span> - Asociación Latinoamericana de Cirujanos de Catarata y Segmento Anterior</p>
+
 
 				</div>
 				<div class="clearfix"></div>

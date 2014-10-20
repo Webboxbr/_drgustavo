@@ -82,8 +82,8 @@ end if
 					<p>Autor: Dr. Gustavo Abreu <span class="negrito">Ultra-Sonografia Ocular: atlas & texto.</span> 4ª edição. </p>
 					<div class="clearfix"></div>
 
-					<img src="images/livros/2.jpg">
-					<p>Co-autor: Dr. Gustavo Abreu <b>Ultra-Sonografia Ocular: atlas & texto.</b> 3ª edição.<br>
+					<img src="images/livros/5.jpg">
+					<p>Co-autor: Dr. Gustavo Abreu <b>Fotocoagulação Ocular.</b> 1ª edição.<br>
 						<a href="trabalhos.asp">Ver mais</a>
 					</p>
 				</li>
