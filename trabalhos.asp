@@ -65,7 +65,7 @@ Conexao.Close()
 					<hr>
 
 					<img src="images/livros/3.jpg" alt="" class="lv">
-					<p class="lv">Co-autor: Dr. Gustavo Abreu Master Thechniques in Cataract and Refractive Surgery</p>
+					<p class="lv">Co-autor: Dr. Gustavo Abreu Master Techniques in Cataract and Refractive Surgery</p>
 					<hr>
 
 					<img src="images/livros/5.jpg" alt="" class="lv">
