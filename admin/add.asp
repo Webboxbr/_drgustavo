@@ -135,6 +135,10 @@ titulo = request.form("txtTitulo")
 info = request.form("txtInfo")
 descricao = request.form("txtDescricao")
 
+if titulo="" then
+response.redirect("javascript:history.back();")
+end if
+
 
 set addRs=Server.CreateObject("ADODB.recordset")
 addSQL = "INSERT INTO "&prefixoTabela&"trabalhos (titulo, info, descricao) values ('" & titulo & "','" & info & "','" & descricao & "')"
